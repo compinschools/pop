@@ -1,9 +1,12 @@
 .App {
   text-align: center;
+  width: 500px;
+  padding: 10px 10px 10px 10px;
 }
 
 .App-logo {
   height: 40vmin;
+ 
   pointer-events: none;
 }
 
@@ -35,4 +38,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.listTable {
+  width:100%;
+  table-layout:fixed;
+}
+
+.listTable tr td {
+  white-space: nowrap;
+}
+
+.listTable tr td:nth-child(1) {
+  white-space:normal;
+  word-wrap: break-word;
 }
